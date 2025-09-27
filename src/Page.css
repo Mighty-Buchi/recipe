@@ -2,12 +2,14 @@
     display: flex;
     justify-content: center;
     font-family: outfit;
+    align-items: center;
 }
 .pagecon{
     background-color: white;
     max-width: 50vw;
     padding: 1.5em;
     margin-top: 2em;
+    margin-bottom: 2em;
     border-radius: 15px;
 }
 img{
@@ -35,7 +37,7 @@ h2{
     color: hsl(14, 45%, 36%);
 }
 h1{
-    font-family: Young serif;
+    font-family: Young serif !important;
 }
 
 
@@ -52,4 +54,7 @@ h1{
      .cal{
         padding-right: 0em;
      }
+     h1{
+    font-family: Young serif !important;
+}
 }
