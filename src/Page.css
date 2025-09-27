@@ -1,0 +1,55 @@
+.page{
+    display: flex;
+    justify-content: center;
+    font-family: outfit;
+}
+.pagecon{
+    background-color: white;
+    max-width: 50vw;
+    padding: 1.5em;
+    margin-top: 2em;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+.prep{
+    background-color: hsla(332, 71%, 40%, 0.13);
+    padding: 1em 2em;
+     border-radius: 10px;
+}
+.prep h3{
+    color: hsl(332, 51%, 32%);
+   
+}
+.cal{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 0em 1em;
+    margin: 2px;
+    padding-right: 20em;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+}
+h1{
+    font-family: Young serif;
+}
+
+
+
+@media (max-width : 648px){
+    .page{
+        width: 100%;
+    }
+    .pagecon{
+        max-width: 100%;
+        margin: 0em ;
+        padding: 0.5em;
+    }
+     .cal{
+        padding-right: 0em;
+     }
+}
